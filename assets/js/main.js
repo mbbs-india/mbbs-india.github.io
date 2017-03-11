@@ -448,15 +448,15 @@ for (i = 0; i < acc.length; i++) {
 }
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onScroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementsByClassName("toTopBtn").style.display = "block";
-    } else {
-        document.getElementsByClassName("toTopBtn").style.display = "none";
-    }
-}
+//window.onScroll = function() {scrollFunction()};
+//
+//function scrollFunction() {
+//    if (document.body.scrollTop > 20px || document.documentElement.scrollTop > 20px) {
+//        document.getElementsByClassName("toTopBtn").style.display = "block";
+//    } else {
+//        document.getElementsByClassName("toTopBtn").style.display = "none";
+//    }
+//}
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
