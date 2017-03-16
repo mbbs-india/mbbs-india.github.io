@@ -1399,6 +1399,9 @@
 		margin-bottom: 20px;
 	}
 
+    div#auca-checklists a {
+        display: block;
+    }
     button.toTopBtn {
         display: none;
         position: fixed; /* Fixed/sticky position */
