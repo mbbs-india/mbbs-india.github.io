@@ -1413,12 +1413,11 @@
         cursor: pointer; /* Add a mouse pointer on hover */
     }
 
-    div#accommodation {
+    div.thumbnail-wrapper {
     	width: 100%;
     }
-    div#accommodation .thumbnail {
+    div.thumbnail-wrapper .thumbnail {
     	    display: inline-block;
-		    background: gray;
 		    width: 33%;
 		    float: left;
 		    margin: 1px;
@@ -1427,11 +1426,11 @@
 		    border: none;
     }
     
-    div#accommodation .thumbnail img {
+    div.thumbnail-wrapper .thumbnail img {
     	width: 100%;
     	height: 100%;
     }
-    div#accommodation .thumbnail .overlay {
+    div.thumbnail-wrapper .thumbnail .overlay {
 		    top: 0;
 		    bottom: 0;
 		    left: 0;
@@ -1444,18 +1443,17 @@
 		    font-size: 30px;
 		    font-weight: bold;
 		    z-index: 10;
-			transition: all 1s;
-		    -webkit-transition: all 1s;
-		    -moz-transition: all 1s;
-		    -o-transition: all 1s;
+			transition: all 0.5;
+		    -webkit-transition: all 0.5s;
+		    -moz-transition: all 0.5s;
+		    -o-transition: all 0.5s;
     }
-    div#accommodation .thumbnail .overlay:hover { 
+    div.thumbnail-wrapper .thumbnail .overlay:hover { 
     	opacity: 1;
-		transition: all 1s;
-		-webkit-transition: all 1s;
-		-moz-transition: all 1s;
-		-o-transition: all 1s;
-
+			transition: all 0.5;
+		    -webkit-transition: all 0.5s;
+		    -moz-transition: all 0.5s;
+		    -o-transition: all 0.5s;
     }
 
 
