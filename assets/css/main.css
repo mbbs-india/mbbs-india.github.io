@@ -1456,6 +1456,9 @@
 		    -o-transition: all 0.5s;
     }
 
+    .col-md-6 .fa-chevron-circle-right {
+    	margin-right: 5px;
+    }
 
 	/*custom code end*/
 		body.is-article-visible #header {
