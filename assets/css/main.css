@@ -1324,7 +1324,7 @@
 			border-left: 0;
 		}
 
-		/* dropdown and other custom code*/
+		/* custom code start*/
         .dropbtn {
             color: white;
             padding: 16px;
@@ -1413,6 +1413,53 @@
         cursor: pointer; /* Add a mouse pointer on hover */
     }
 
+    div#accommodation {
+    	width: 100%;
+    }
+    div#accommodation .thumbnail {
+    	    display: inline-block;
+		    background: gray;
+		    width: 33%;
+		    float: left;
+		    margin: 1px;
+		    height: 195px;
+		    position: relative;
+		    border: none;
+    }
+    
+    div#accommodation .thumbnail img {
+    	width: 100%;
+    	height: 100%;
+    }
+    div#accommodation .thumbnail .overlay {
+		    top: 0;
+		    bottom: 0;
+		    left: 0;
+		    right: 0;
+		    opacity: 0;
+		    background-color: rgba(0,0,0,0.5);
+		    position: absolute;
+		    text-align: center;
+		    padding: 3px;
+		    font-size: 30px;
+		    font-weight: bold;
+		    z-index: 10;
+			transition: all 1s;
+		    -webkit-transition: all 1s;
+		    -moz-transition: all 1s;
+		    -o-transition: all 1s;
+    }
+    div#accommodation .thumbnail .overlay:hover { 
+    	opacity: 1;
+		transition: all 1s;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		-o-transition: all 1s;
+
+    }
+
+
+	/*custom code end*/
 		body.is-article-visible #header {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
@@ -1566,7 +1613,7 @@
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 50rem;
+			width: 60rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
