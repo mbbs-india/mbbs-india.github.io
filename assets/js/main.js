@@ -405,7 +405,7 @@
 						});
 
 	});
-
+	$('.scrollable-content').perfectScrollbar();
 })(jQuery);
 
 
